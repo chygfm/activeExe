@@ -11,22 +11,17 @@ Markdown
 ```python 3.4
 python 3.4
 
-# C#
+# vbs#
  
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+ 
+Dim py,num
+Set py= CreateObject("pyActive.py3") 
+msgbox (py.eVal(3+6))
+py.quit()
+ 
 ```
 
  
-###  
-
  
 ### Support or Contact
 chygfm@foxmail.com
