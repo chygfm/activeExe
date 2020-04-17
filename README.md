@@ -15,16 +15,19 @@ python 3.4
  
 1. run pyActiveEXE.exe /r  or  click pyActiveEXE.exe to  install
 2. in  vbs demo code
- {% highlight html linenos=table %}
+
 Dim py,num
 Set py= CreateObject("pyActive.py3") 
 msgbox (py.eVal(3+6))
 py.quit()
-{% endhighlight %} 
+
 ```
 uninstall pyActiveEXE
+ {: .left}
+{% highlight text linenos=table %}
  pyActiveEXE.exe /u
- 
+{% endhighlight %}
+
 ### Support or Contact
 chygfm@foxmail.com
  
