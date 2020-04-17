@@ -1,4 +1,4 @@
-## Welcome to AcvtiveEXE
+## Welcome to AcvtiveEXE   python2.7/3.4 win32
  On windows
  
 Use python's AcvtiveEXE component (12.5M) to generate a stand-alone program for C,python,C#,C++,javascript,Go,Java,vbs...languages' calls.
