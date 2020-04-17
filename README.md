@@ -8,8 +8,8 @@ Use python's AcvtiveEXE component (12.5M) to generate a stand-alone program for 
 ### python 3.4
 
 Markdown  
-```python 3.4
-python 3.4
+```
+python 3.4 /2.7
 
 # vbs#
  
@@ -24,9 +24,9 @@ py.quit()
 ```
 uninstall pyActiveEXE
  {: .left}
-{% highlight text linenos=table %}
+
  pyActiveEXE.exe /u
-{% endhighlight %}
+
 
 ### Support or Contact
 chygfm@foxmail.com
