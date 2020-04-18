@@ -1,12 +1,53 @@
-## Welcome to AcvtiveEXE  python 3.4 win32
- On windows
- 
-Use python's AcvtiveEXE component (12.5M) to generate a stand-alone program for C,python,C#,C++,javascript,Go,Java,vbs...languages' calls.
+## Welcome to pyAcvtiveEXE  python 3.4 win32  for Windows
+You have 2 ways to generate a standalone python program .
+Method 1 call pyAcvtiveEXE component from other languages
+Method 2 config the /py/py.cfg, Limited functionality,No input interface
 
-ä½¿ç”¨pythonçš„AcvtiveEXEç»„ä»¶(12.5M)å¯ä»¥ç”Ÿæˆç‹¬ç«‹è¿è¡Œç¨‹åº,ä»¥ä¾¿C,python,C#,C++,javascript,Go,Java,vbs...ç­‰è¯­è¨€å¯ä»¥è°ƒç”¨ã€‚
- 
-### python 3.4
- 
+Use python's pyAcvtiveEXE component (<15M) to generate a standalone program for C,python,C#,C++,javascript,Go,Java,vbs...languages' calls.
+ pyAcvtiveEXE component is too small,only about 15M,too easy,can call almost python program
+
+###Method 1
+:: install pyActiveEXE Component one time for initialization in new machine on windows system.
+:: pyActiveEXE.exe /r  
+:: or  click pyActiveEXE.exe
+
+:: run demos under text folder
+
+:: Uninstall pyActiveEXE Component
+pyActiveEXE.exe /u
+
+###Method 2
+config /py/py.cfg ,change run=1£¬click pyActiveEXE.exe,OK!
+
 ### Support or Contact
-chygfm@foxmail.com
- 
+Github: https://github.com/chygfm/activeExe
+email:chygfm@foxmail.com
+web: https://chygfm.github.io/activeExe/
+
+
+================================================================================================
+
+
+ÓĞ2ÖÖ·½·¨¿ÉÒÔÉú³ÉpythonµÄ¶ÀÁ¢ÔËĞĞ³ÌĞò¡£
+·½·¨1 Ê¹ÓÃÆäËüÓïÑÔµ÷ÓÃpyAcvtiveEXE×é¼ş
+·½·¨2 ĞŞ¸Ä/py/py.cfgÅäÖÃÎÄ¼ş£¬ÄÜÊµÏÖ¼òµ¥¹¦ÄÜ£¬Ã»ÓĞÊäÈë½çÃæ
+
+Ê¹ÓÃpythonµÄpyAcvtiveEXE×é¼ş(<15M)¿ÉÒÔÉú³É¶ÀÁ¢ÔËĞĞ³ÌĞò,ÒÔ±ãC,python,C#,C++,javascript,Go,Java,vbs...µÈÓïÑÔ¿ÉÒÔµ÷ÓÃ¡£
+
+### ·½·¨1µ÷ÓÃ×é¼ş
+:: ÔÚĞÂµÄµçÄÔÉÏwindowsÏµÍ³ÉÏĞèÒª³õÊ¼»¯pyActiveEXE×é¼ş
+:: pyActiveEXE.exe /r  
+:: »òÕßµã»÷ÔËĞĞ pyActiveEXE.exe
+
+:: ÔËĞĞtestÎÄ¼ş¼ĞÏÂÃæµÄdemo
+
+:: Ğ¶ÔØpyActiveEXE×é¼ş
+pyActiveEXE.exe /u
+
+### ·½·¨2ĞŞ¸Ä/py/py.cfg
+ĞŞ¸Ä/py/py.cfgÅäÖÃÎÄ¼ş£¬run=1£¬µã»÷ÔËĞĞpyActiveEXE.exe
+
+### ÁªÏµ
+Github: https://github.com/chygfm/activeExe
+email:chygfm@foxmail.com
+web: https://chygfm.github.io/activeExe/
