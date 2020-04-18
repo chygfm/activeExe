@@ -1,5 +1,5 @@
-## Welcome to AcvtiveEXE   python2.7/3.4 win32
-## Welcome to pyAcvtiveEXE  python 3.4 win32  for Windows
+## Welcome to AcvtiveEXE   python2.7/3.4 win32  for Windows
+ 
 You have 2 ways to generate a standalone python program .
 Method 1 call pyAcvtiveEXE component from other languages
 Method 2 config the /py/py.cfg, Limited functionality,No input interface
@@ -55,6 +55,21 @@ web: https://chygfm.github.io/activeExe/
 :: 或者点击运行 pyActiveEXE.exe
 
 :: 运行test文件夹下面的demo
+Markdown  
+```
+python 3.4 /2.7
+
+# vbs#
+ 
+1. run pyActiveEXE.exe /r  or  click pyActiveEXE.exe to  install
+2. in  vbs demo code
+
+Dim py,num
+Set py= CreateObject("pyActive.py3") 
+msgbox (py.eVal(3+6))
+py.quit()
+
+```
 
 :: 卸载pyActiveEXE组件
 pyActiveEXE.exe /u
