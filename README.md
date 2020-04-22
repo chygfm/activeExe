@@ -1,84 +1,61 @@
-## Welcome to AcvtiveEXE   python2.7/3.4 win32  for Windows
- 
-You have 2 ways to generate a standalone python program .
+## Welcome to pyAcvtiveEXE  python 3.4 win32  for Windows
+
+You have 2 ways to generate a standalone executable python program .
+
 Method 1 call pyAcvtiveEXE component from other languages
-Method 2 config the /py/py.cfg, Limited functionality,No input interface
+Method 2 config the /py/py.cfg, Limited functionality,No input interface,change the the exefile's ico by QIcon Changer or Resource Hacker  
 
 Use python's pyAcvtiveEXE component (<15M) to generate a standalone program for C,python,C#,C++,javascript,Go,Java,vbs...languages' calls.
  pyAcvtiveEXE component is too small,only about 15M,too easy,can call almost python program
 
 ###Method 1
+
 :: install pyActiveEXE Component one time for initialization in new machine on windows system.
 :: pyActiveEXE.exe /r  
 :: or  click pyActiveEXE.exe
 
 :: run demos under text folder
-Markdown  
-```
-python 3.4 /2.7
 
-# vbs#
- 
-1. run pyActiveEXE.exe /r  or  click pyActiveEXE.exe to  install
-2. in  vbs demo code
-
-Dim py,num
-Set py= CreateObject("pyActive.py3") 
-msgbox (py.eVal(3+6))
-py.quit()
-
-```
 :: Uninstall pyActiveEXE Component
 pyActiveEXE.exe /u
 
 ###Method 2
-config /py/py.cfg ,change run=1ï¼Œclick pyActiveEXE.exe,OK!
+
+config /py/py.cfg ,change run=1£¬click pyActiveEXE.exe,OK!
 
 ### Support or Contact
+
 Github: https://github.com/chygfm/activeExe
 email:chygfm@foxmail.com
-web: https://chygfm.github.io/activeExe/
-
+web: [activeExe](https://chygfm.github.io/activeExe/)
+ 
 
 ================================================================================================
 
 
-æœ‰2ç§æ–¹æ³•å¯ä»¥ç”Ÿæˆpythonçš„ç‹¬ç«‹è¿è¡Œç¨‹åºã€‚
-æ–¹æ³•1 ä½¿ç”¨å…¶å®ƒè¯­è¨€è°ƒç”¨pyAcvtiveEXEç»„ä»¶
-æ–¹æ³•2 ä¿®æ”¹/py/py.cfgé…ç½®æ–‡ä»¶ï¼Œèƒ½å®žçŽ°ç®€å•åŠŸèƒ½ï¼Œæ²¡æœ‰è¾“å…¥ç•Œé¢
+ÓÐ2ÖÖ·½·¨¿ÉÒÔÉú³ÉpythonµÄ¶ÀÁ¢ÔËÐÐ³ÌÐò¡£
+·½·¨1 Ê¹ÓÃÆäËüÓïÑÔµ÷ÓÃpyAcvtiveEXE×é¼þ
+·½·¨2 ÐÞ¸Ä/py/py.cfgÅäÖÃÎÄ¼þ£¬ÄÜÊµÏÖ¼òµ¥¹¦ÄÜ£¬Ã»ÓÐÊäÈë½çÃæ
 
-ä½¿ç”¨pythonçš„pyAcvtiveEXEç»„ä»¶(<15M)å¯ä»¥ç”Ÿæˆç‹¬ç«‹è¿è¡Œç¨‹åº,ä»¥ä¾¿C,python,C#,C++,javascript,Go,Java,vbs...ç­‰è¯­è¨€å¯ä»¥è°ƒç”¨ã€‚
+Ê¹ÓÃpythonµÄpyAcvtiveEXE×é¼þ(<15M)¿ÉÒÔÉú³É¶ÀÁ¢ÔËÐÐ³ÌÐò,ÒÔ±ãC,python,C#,C++,javascript,Go,Java,vbs...µÈÓïÑÔ¿ÉÒÔµ÷ÓÃ¡£
 
-### æ–¹æ³•1è°ƒç”¨ç»„ä»¶
-:: åœ¨æ–°çš„ç”µè„‘ä¸Šwindowsç³»ç»Ÿä¸Šéœ€è¦åˆå§‹åŒ–pyActiveEXEç»„ä»¶
+### ·½·¨1µ÷ÓÃ×é¼þ
+
+:: ÔÚÐÂµÄµçÄÔÉÏwindowsÏµÍ³ÉÏÐèÒª³õÊ¼»¯pyActiveEXE×é¼þ
 :: pyActiveEXE.exe /r  
-:: æˆ–è€…ç‚¹å‡»è¿è¡Œ pyActiveEXE.exe
+:: »òÕßµã»÷ÔËÐÐ pyActiveEXE.exe
 
-:: è¿è¡Œtestæ–‡ä»¶å¤¹ä¸‹é¢çš„demo
-Markdown  
-```
-python 3.4 /2.7
+:: ÔËÐÐtestÎÄ¼þ¼ÐÏÂÃæµÄdemo
 
-# vbs#
- 
-1. run pyActiveEXE.exe /r  or  click pyActiveEXE.exe to  install
-2. in  vbs demo code
-
-Dim py,num
-Set py= CreateObject("pyActive.py3") 
-msgbox (py.eVal(3+6))
-py.quit()
-
-```
-
-:: å¸è½½pyActiveEXEç»„ä»¶
+:: Ð¶ÔØpyActiveEXE×é¼þ
 pyActiveEXE.exe /u
 
-### æ–¹æ³•2ä¿®æ”¹/py/py.cfg
-ä¿®æ”¹/py/py.cfgé…ç½®æ–‡ä»¶ï¼Œrun=1ï¼Œç‚¹å‡»è¿è¡ŒpyActiveEXE.exe
+### ·½·¨2ÐÞ¸Ä/py/py.cfg
 
-### è”ç³»
+ÐÞ¸Ä/py/py.cfgÅäÖÃÎÄ¼þ£¬run=1£¬µã»÷ÔËÐÐpyActiveEXE.exe
+
+### ÁªÏµ
+
 Github: https://github.com/chygfm/activeExe
 email:chygfm@foxmail.com
-web: https://chygfm.github.io/activeExe/
- 
+web: [activeExe](https://chygfm.github.io/activeExe/)
