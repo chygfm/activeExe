@@ -15,7 +15,30 @@ Use python's pyAcvtiveEXE component (<15M) to generate a standalone program for 
 :: or  click pyActiveEXE.exe
 
 :: run demos under text folder
+Markdown  
+```
+python 3.4 /2.7
 
+# c sharp#
+
+using pyActive;
+ pyActive.py3 py = new pyActive.py3();
+MessageBox.Show(py.version());
+py.quit();
+
+
+
+# vbs#
+ 
+1. run pyActiveEXE.exe /r  or  click pyActiveEXE.exe to  install
+2. in  vbs demo code
+
+Dim py,num
+Set py= CreateObject("pyActive.py3") 
+msgbox (py.eVal(3+6))
+py.quit()
+
+```
 :: Uninstall pyActiveEXE Component
 pyActiveEXE.exe /u
 
